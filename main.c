@@ -8,15 +8,16 @@ bus_t bus = {NULL, NULL, NULL, 0};
 * @argv: monty file location
 * Return: 0 on success
 */
+
 int main(int argc, char *argv[])
 {
 	char *content;
 	FILE *file;
 	size_t size = 0;
 	ssize_t read_line = 1;
-	stact_t *stack = NULL;
+	stack_t *stack = NULL;
 	unsigned int counter = 0;
-}
+
 	if (argc != 2)
 	{
 		fprintf(stderr, "USAGE: monty file\n");
